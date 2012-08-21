@@ -1,0 +1,8 @@
+Generate static XHTML photo galery from picture directory using Bash and Imagemagick.
+Based on previuos work of Sam Hocevar - http://sam.zoy.org/projects/genethumb/.
+
+Options:
+
+-c N : Number of galery columns, where N is an integer. Default 5;
+-w "Text" : Text to be used as watermark for pictures. Default "CC-BY";
+-t "Text" : Galery title. Default - working directory name;
